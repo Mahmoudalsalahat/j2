@@ -1,0 +1,84 @@
+body{
+    background-color:hsl(219, 30%, 17%) ;
+    color: white;
+}
+.adduser{
+    width: 300px;
+    height: 550px;
+    background-color:hsl(219, 30%, 17%);
+    position: relative;
+    right: 50px;
+    top: 100px;
+    border-radius: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+h4{
+    position: relative;
+    left: 25px;
+    top: 25px;
+   
+}
+.title{
+    position: relative;
+    left: 25px;
+    top: 25px;
+}
+input[type=text]{
+    width: 350px;
+    height: 30px;
+}
+.description{
+    position: relative;
+    top: 30px;
+    left: 25px;
+}
+.description1{
+    height: 150px;
+}
+.addnew{
+    width: 350px;
+    height: 35px;
+    border-radius: 20px;
+    position: relative;
+    top: 50px;
+    left: 25px;
+    background-color: white;
+    color: #2196F3;
+}
+.subtask{
+    position: relative;
+    top: 30px;
+    left: 25px;
+}
+.status{
+    position: relative;
+    top: 60px;
+    left: 25px;
+}
+select{
+    width: 350px;
+    height: 30px;
+    border-radius: 4px; ;
+}
+.Create{
+    position: relative;
+    top: 70px;
+    left: 25px;
+    width: 350px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #2196F3;
+}
+@media only screen and (max-width:1400px){
+    body{
+        width: 100%;
+       
+    }
+    .adduser{
+        width:100%;
+        position: relative;
+        left: 15%;
+        top: 50px;
+    }
+     
+}
